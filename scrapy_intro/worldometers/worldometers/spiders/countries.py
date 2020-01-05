@@ -17,5 +17,15 @@ class CountriesSpider(scrapy.Spider):
             link = i.xpath(".//@href").get()
 
             # to deal with relative urls
-            absolute_url = f"https://www.worldometers.info{link}"
-            yield scrapy.Request(url=absolute_url)
+
+            # manually concat url
+            # absolute_url = f"https://www.worldometers.info{link}"
+
+            # url join is cleaner way to concat url with links
+            # absolute_url = response.urljoin(link)
+
+            # use with string concat methods above
+            # yield scrapy.Request(url=absolute_url)
+
+            # do not need concat methods above when using response.follow
+            yield response.follow(url=link)
