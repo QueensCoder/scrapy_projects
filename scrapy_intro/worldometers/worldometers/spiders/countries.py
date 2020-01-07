@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
+import logging
 
 
 class CountriesSpider(scrapy.Spider):
@@ -28,4 +29,16 @@ class CountriesSpider(scrapy.Spider):
             # yield scrapy.Request(url=absolute_url)
 
             # do not need concat methods above when using response.follow
-            yield response.follow(url=link)
+            yield response.follow(url=link, callback=self.parse_country)
+
+    def parse_country(self, response):
+        rows = response.xpath(
+            "(//table[@class='table table-striped table-bordered table-hover table-condensed table-list'])[1]/tbody")
+        for row in rows:
+                year = row.xpath(".//td[1]/text()").get()
+                population = row.xpath(".//td[2]/strong/text()").get()
+
+                yield {
+                    'year': year,
+                    'population': population
+                }
