@@ -13,6 +13,16 @@ scrapy commands:
     version Print Scrapy version
     view Open URL in browser, as seen by Scrapy
 
+    crawl <spider-name>
+        - this command allows us to crawl using the spider named
+      ex:
+        scrapy crawl countries
+            - regular crawl
+
+        scrapy crawl countries -o population_dataset.csv
+            - crawl then create an output file with all the crawled infomation
+            - can use different file extensions to make different types of files
+
 XPATH - usually more robust than using css selectors
 
     xml path language
