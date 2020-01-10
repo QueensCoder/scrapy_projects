@@ -61,3 +61,11 @@ XPATH - usually more robust than using css selectors
             - find the li's where the position is greater than 1
 
 CSS selectors - cleaner syntax then xpath
+
+User Agent -
+
+    can change user agent inside of the settings file
+    under # USER_AGENT you can change it for one
+
+    or under you can change it for all requests being sent
+    # DEFAULT_REQUEST_HEADERS = {}

@@ -14,6 +14,8 @@ class BestSellersSpider(scrapy.Spider):
         price = price[price.find('$'):]
         return price[:price.find('\\n'):]
 
+# overwrite astart requests method
+# alternative solution is to change user agent in settings.py and user user-agent genrator
     def start_requests(self):
         # crawl with user agent that is not scrapy's default
         # this is done to prevent web scraper blockers
