@@ -4,7 +4,10 @@ import scrapy
 
 class BestSellerSpider(scrapy.Spider):
     name = 'best_seller'
-    allowed_domains = ['https://www.glassesshop.com']
+
+    # https infront of glassesshop.com caussed the spider to not scrape
+    # after initial scrap, allowed domains should only contain site without full http address
+    allowed_domains = ['www.glassesshop.com']
     start_urls = ['https://www.glassesshop.com/bestsellers']
 
     def parse(self, response):
@@ -25,8 +28,12 @@ class BestSellerSpider(scrapy.Spider):
                 "url": href,
                 "img_url": img,
                 "name": name,
-                "price": price
+                "price": price,
+                # using custom user agent that is passed in the settings.py file
+                "user-agent": response.request.headers['User-Agent']
             }
 
-        next_page = response.xpath("//a[@class='page-link']/@aria-label")
-        # if next_page:
+        next_page = response.xpath(
+            "//ul[@class='pagination']/li[last()]/a/@href").get()
+        if next_page:
+            yield scrapy.Request(url=next_page, callback=self.parse)
