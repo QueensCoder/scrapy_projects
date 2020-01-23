@@ -1,3 +1,9 @@
+<!-- to start project -->
+
+inside of scrapy intro dir -> pipenv shell - to start virtual env
+
+<!--  -->
+
 scrapy startproject myproject [project_dir] - create scrapy project in dir
 scrapy commands:
 
@@ -5,6 +11,9 @@ scrapy commands:
     fetch Fetch a URL using the Scrapy downloader
 
     genspider Generate new spider using pre-defined templates   ****
+
+    genspider -t crawl <spider name> <site url>
+        - build a spider using specific template
 
     runspider Run a self-contained spider (without creating a project)
     settings Get settings values
