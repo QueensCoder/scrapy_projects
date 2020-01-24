@@ -78,3 +78,11 @@ User Agent -
 
     or under you can change it for all requests being sent
     # DEFAULT_REQUEST_HEADERS = {}
+
+Setting up Splash
+
+    docker pull scrapinghub/splash
+
+    docker run -it -p 8050:8050 --rm scrapinghub/splash
+
+    Splash is available at 0.0.0.0 address at port 8050 (http).
