@@ -86,3 +86,8 @@ Setting up Splash
     docker run -it -p 8050:8050 --rm scrapinghub/splash
 
     Splash is available at 0.0.0.0 address at port 8050 (http).
+
+    then you can kill terminal just remember to shut down splash once you are finished
+    or else docker will continue to run splash in the background
+
+    you configure splash with Lua language
