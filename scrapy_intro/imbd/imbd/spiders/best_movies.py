@@ -12,6 +12,7 @@ class BestMoviesSpider(CrawlSpider):
     # start_urls = [
     #     '']
 
+# dummy user agent
     user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9'
 
     # link extractor takes out the link from the xpath provided and passed that link to the callback method
@@ -48,6 +49,4 @@ class BestMoviesSpider(CrawlSpider):
             'genre': response.xpath("//div[@class='subtext']/a[1]/text()").get(),
             'movie_url': response.url,
             'user-agent': response.request.headers['User-Agent']
-
-
         }
