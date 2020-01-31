@@ -1,4 +1,24 @@
 function main(splash,args)
+
+
+--set another user agent
+ -- splash:set_user_agent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9")
+
+  
+  --make custom headers to send with req
+  --[[
+  headers = {
+    ['User-Agent'] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9'
+  }
+  
+  splash:set_custom_headers(headers)
+  ]]
+  
+  --set user-agent using method that takes callback
+  splash:on_request(function(request)
+    request:set_header("User-Agent",'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9')
+	end)
+
   url = args.url
 
   --   assert makes sure the operation goes through and splash can go to the url
