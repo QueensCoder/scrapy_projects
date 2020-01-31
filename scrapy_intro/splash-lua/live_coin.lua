@@ -1,4 +1,6 @@
 function main(splash, args)
+    splash.private_mode_enabled = false
+
     url = args.url
     assert(splash:go(url))
     assert(splash:wait(1))
@@ -11,5 +13,7 @@ function main(splash, args)
 
     -- set viewport to full
     splash:set_viewport_full()
-    return splash:png()
+
+    -- return the html markup so we can parse
+    return splash:html()
   end
