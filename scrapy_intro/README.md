@@ -91,3 +91,7 @@ Setting up Splash
     or else docker will continue to run splash in the background
 
     you configure splash with Lua language
+
+Using Scrapy with Splash
+
+https://github.com/scrapy-plugins/scrapy-splash
