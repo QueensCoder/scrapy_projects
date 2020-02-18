@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for quotes project
+# Scrapy settings for quotestoscrape project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'quotes'
+BOT_NAME = 'quotestoscrape'
 
-SPIDER_MODULES = ['quotes.spiders']
-NEWSPIDER_MODULE = 'quotes.spiders'
+SPIDER_MODULES = ['quotestoscrape.spiders']
+NEWSPIDER_MODULE = 'quotestoscrape.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'quotes (+http://www.yourdomain.com)'
+#USER_AGENT = 'quotestoscrape (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -58,6 +58,10 @@ DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
 }
 
+DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+
+SPLASH_URL = 'http://0.0.0.0:8050/'
+
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
 # EXTENSIONS = {
@@ -67,7 +71,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 # ITEM_PIPELINES = {
-#    'quotes.pipelines.QuotesPipeline': 300,
+#    'quotestoscrape.pipelines.QuotestoscrapePipeline': 300,
 # }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -90,4 +94,3 @@ DOWNLOADER_MIDDLEWARES = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-SPLASH_URL = 'http://0.0.0.0:8050/'
