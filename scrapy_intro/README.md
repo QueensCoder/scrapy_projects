@@ -102,3 +102,7 @@ Using Selenium
 
     determine which driver is required https://selenium-python.readthedocs.io/installation.html#
     and make sure you install the driver for the correct version
+
+
+    when using a chrome driver you can either locate it using a hard path or add it to an actual path so you can reference it with shutils.which
+    in order to add it to path you have to use mv chromedriver <to location>
