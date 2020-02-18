@@ -94,4 +94,11 @@ Setting up Splash
 
 Using Scrapy with Splash
 
-https://github.com/scrapy-plugins/scrapy-splash
+    https://github.com/scrapy-plugins/scrapy-splash
+
+Using Selenium
+
+    pipenv install selenium
+
+    determine which driver is required https://selenium-python.readthedocs.io/installation.html#
+    and make sure you install the driver for the correct version
