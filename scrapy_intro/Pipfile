@@ -10,6 +10,7 @@ autopep8 = "*"
 scrapy = "*"
 scrapy-splash = "*"
 selenium = "*"
+scrapy-selenium = "*"
 
 [requires]
 python_version = "3.7"
