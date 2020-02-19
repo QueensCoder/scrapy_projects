@@ -25,3 +25,16 @@ class ComputerDealsSpider(scrapy.Spider):
                 'store': prod.xpath("normalize-space(.//span[@class='itemStore']/text())").get().strip(),
                 'price': prod.xpath("normalize-space(.//div[@class='itemPrice  wide ']/text())").get()
             }
+
+            next_page = response.xpath(
+                "//a[@data-role='next-page']/@href").get()
+
+            if next_page:
+                absolute_url = f'https://slickdeals.net{next_page}'
+
+                yield SeleniumRequest(
+                    url=absolute_url,
+                    wait_time=3,
+                    screenshot=True,
+                    callback=self.parse
+                )
