@@ -22,6 +22,6 @@ class ComputerDealsSpider(scrapy.Spider):
             yield {
                 'name': prod.xpath(".//a[@class='itemTitle']/text()").get(),
                 'link': prod.xpath(".//a[@class='itemTitle']/@href").get(),
-                'store': prod.xpath(".//span[@class='itemStore']/text()").get(),
-                'price': prod.xpath(".//div[@class='itemPrice  wide ']/text()").get()
+                'store': prod.xpath("normalize-space(.//span[@class='itemStore']/text())").get().strip(),
+                'price': prod.xpath("normalize-space(.//div[@class='itemPrice  wide ']/text())").get()
             }
