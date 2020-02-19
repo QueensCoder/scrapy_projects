@@ -106,3 +106,4 @@ Using Selenium
 
     when using a chrome driver you can either locate it using a hard path or add it to an actual path so you can reference it with shutils.which
     in order to add it to path you have to use mv chromedriver <to location>
+    you will have to update the chromedriver in path is you update chrome
