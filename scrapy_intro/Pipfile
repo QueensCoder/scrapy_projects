@@ -11,6 +11,8 @@ scrapy = "*"
 scrapy-splash = "*"
 selenium = "*"
 scrapy-selenium = "*"
+pymongo = "*"
+dnspython = "*"
 
 [requires]
 python_version = "3.7"
