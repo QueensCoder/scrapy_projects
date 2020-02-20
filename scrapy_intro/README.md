@@ -1,14 +1,38 @@
+<!-- to start project -->
+
+inside of scrapy intro dir -> pipenv shell - to start virtual env
+for using python extension make sure you open the folder that has the pipfile in order to set up the
+environment for python to work with python extension correctly
+
+<!--  -->
+
+scrapy startproject myproject [project_dir] - create scrapy project in dir
 scrapy commands:
 
     bench Run quick benchmark test
     fetch Fetch a URL using the Scrapy downloader
-    genspider Generate new spider using pre-defined templates
+
+    genspider Generate new spider using pre-defined templates   ****
+
+    genspider -t crawl <spider name> <site url>
+        - build a spider using specific template
+
     runspider Run a self-contained spider (without creating a project)
     settings Get settings values
     shell Interactive scraping console
     startproject Create new project
     version Print Scrapy version
     view Open URL in browser, as seen by Scrapy
+
+    crawl <spider-name>
+        - this command allows us to crawl using the spider named
+      ex:
+        scrapy crawl countries
+            - regular crawl
+
+        scrapy crawl countries -o population_dataset.csv
+            - crawl then create an output file with all the crawled infomation
+            - can use different file extensions to make different types of files
 
 XPATH - usually more robust than using css selectors
 
@@ -48,3 +72,50 @@ XPATH - usually more robust than using css selectors
             - find the li's where the position is greater than 1
 
 CSS selectors - cleaner syntax then xpath
+
+User Agent -
+
+    can change user agent inside of the settings file
+    under # USER_AGENT you can change it for one
+
+    or under you can change it for all requests being sent
+    # DEFAULT_REQUEST_HEADERS = {}
+
+Setting up Splash
+
+    docker pull scrapinghub/splash
+
+    docker run -it -p 8050:8050 --rm scrapinghub/splash
+
+    Splash is available at 0.0.0.0 address at port 8050 (http).
+
+    then you can kill terminal just remember to shut down splash once you are finished
+    or else docker will continue to run splash in the background
+
+    you configure splash with Lua language
+
+Using Scrapy with Splash
+
+    https://github.com/scrapy-plugins/scrapy-splash
+
+Using Selenium
+
+    pipenv install selenium
+
+    determine which driver is required https://selenium-python.readthedocs.io/installation.html#
+    and make sure you install the driver for the correct version
+
+
+    when using a chrome driver you can either locate it using a hard path or add it to an actual path so you can reference it with shutils.which
+    in order to add it to path you have to use mv chromedriver <to location>
+    you will have to update the chromedriver in path is you update chrome
+
+Pipelines
+
+    # using imdb.pipelines and the class imdb pipeline
+
+    # the number is the priority , lower the number higher the priority
+
+    ITEM_PIPELINES = {
+    'imbd.pipelines.ImbdPipeline': 300,
+    }
