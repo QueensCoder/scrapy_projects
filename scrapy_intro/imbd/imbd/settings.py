@@ -69,12 +69,10 @@ ROBOTSTXT_OBEY = True
 # using imdb.pipelines and the class imdb pipeline
 # the number is the priority , lower the number higher the priority
 ITEM_PIPELINES = {
-    'imbd.pipelines.ImbdPipeline': 300
+    'imbd.pipelines.MongodbPipeline': 300
     # 'imbd.pipelines.FilterDuplicate': 100 # filters duplicate and has more priorty
 
 }
-
-MONGO_URI = 'HELLO WORLD'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
