@@ -36,7 +36,10 @@ class SQLlitePipeline(object):
     def open_spider(self, spider):
         self.connection = sqlite3.connect('imdb.db')
         self.c = self.connection.cursor()
-        self.c.execute('''
+
+        # if table already exists just insert data into table
+        try:
+            self.c.execute('''
             CREATE TABLE best_movies(
                 title TEXT,
                 year TEXT,
@@ -44,9 +47,12 @@ class SQLlitePipeline(object):
                 genre TEXT,
                 rating TEXT,
                 movie_url TEXT
-        )
-    ''')
-    self.connection.commit()
+                )
+            ''')
+            self.connection.commit()
+
+        except sqlite3.OperationalError:
+            pass
 
     def close_spider(self, spider):
         self.client.close()
