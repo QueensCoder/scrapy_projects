@@ -7,11 +7,11 @@ verify_ssl = true
 autopep8 = "*"
 
 [packages]
-scrapy = "*"
-scrapy-splash = "*"
-selenium = "*"
-scrapy-selenium = "*"
 pymongo = "*"
+scrapy = "*"
+selenium = "*"
+scrapy-splash = "*"
+scrapy-selenium = "*"
 dnspython = "*"
 
 [requires]

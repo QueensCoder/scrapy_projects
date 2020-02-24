@@ -69,7 +69,9 @@ ROBOTSTXT_OBEY = True
 # using imdb.pipelines and the class imdb pipeline
 # the number is the priority , lower the number higher the priority
 ITEM_PIPELINES = {
-    'imbd.pipelines.MongodbPipeline': 300
+    # 'imbd.pipelines.MongodbPipeline': 300
+    # use sql lite pipeline as opposed to mongo
+    'imbd.pipelines.SQLlitePipeline': 300
     # 'imbd.pipelines.FilterDuplicate': 100 # filters duplicate and has more priorty
 
 }

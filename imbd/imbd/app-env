@@ -1,0 +1,1 @@
+export MONGO_URI="mongodb+srv://oz2020:test@cluster0-fknrw.mongodb.net/test?retryWrites=true&w=majority"
