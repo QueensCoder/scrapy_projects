@@ -6,6 +6,27 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+from scrapy.downloadermiddlewares.useragent import UserAgentMiddleware
+import random
+import logging
+
+
+class UserAgentRotationMiddleware(UserAgentMiddleware):
+    user_agents_list = [
+        'agent-1',
+        'agent-2222'
+    ]
+
+    def __init__(self, user_agent=''):
+        self.user_agent = user_agent
+
+    def process_request(self, request, spider):
+        # takes randomn user agent from list
+        try:
+            self.user_agent = random.choice(self.user_agents_list)
+            request.headers.setdefault('User-Agent', self.user_agent)
+        except IndexError:
+            logging.error('Could not fetch user agent')
 
 
 class GlassShopSpiderMiddleware(object):

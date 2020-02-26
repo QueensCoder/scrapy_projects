@@ -119,3 +119,41 @@ Pipelines
     ITEM_PIPELINES = {
     'imbd.pipelines.ImbdPipeline': 300,
     }
+
+Avoid Getting blocked
+
+    rate limite quests
+    can limit how many times 1 ip address can make requests to server, would response with 429
+
+    user-agent - if the user agent is the default scrapy agent it can be banned automatically
+
+    user-agents can be used to track who is issuing requests
+
+    honey pots - nofollow or display none a tags would be traps that scrapers would follow and would cause the ip to be blocked
+
+    robots.txt - will show you which sites can be scraped or not
+
+Best Practices
+
+    dont hit websites to hard
+    scrapes can be looked at as DDOS attacks
+
+    concurent requests at 16
+    and keep cpu usuage between 90% and 80%
+
+    add a deplay between each requests
+    see download.delay in settings.py
+
+    can use random delay or auto throttle
+
+    - enable http caching, caches requsts and reponses
+
+    change obey robots.txt to false
+
+    change user_agent
+
+    permanent block
+        - reboot router
+        - proxy service
+        - crawlera (paid)
+        - recaptach (can't get around)

@@ -47,6 +47,6 @@ class BestMoviesSpider(CrawlSpider):
             'rating': response.xpath("//div[@class='ratingValue']/strong/span/text()").get(),
             'movie_url': response.xpath("//div[@class='title_wrapper']/h1/text()").get(),
             'genre': response.xpath("//div[@class='subtext']/a[1]/text()").get(),
-            'movie_url': response.url
-            # 'user-agent': response.request.headers['User-Agent'] #did user agent for testing purposes do not need to store in db
+            'movie_url': response.url,
+            'user-agent': response.request.headers['User-Agent']
         }

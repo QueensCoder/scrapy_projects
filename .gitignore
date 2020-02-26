@@ -1,3 +1,6 @@
 #api key
 # 
 app-env
+
+# db
+imdb.db

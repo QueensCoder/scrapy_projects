@@ -53,9 +53,13 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-# DOWNLOADER_MIDDLEWARES = {
-#    'imbd.middlewares.ImbdDownloaderMiddleware': 543,
-# }
+
+# set custom middleware to rotate user agents for each request
+DOWNLOADER_MIDDLEWARES = {
+    'scrapy.downloader.middlewares.useragent.UserAgent': None,
+    'imbd.middlewares.UserAgentRotationMiddleware': 400
+    # 'imbd.middlewares.ImbdDownloaderMiddleware': 543
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
