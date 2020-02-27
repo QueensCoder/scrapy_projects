@@ -168,3 +168,15 @@ Deploy spiders
     then shub deploy <deploy key>
 
     need to configure scraping hub to use python3
+
+    update the scrapinghub.yml file to use newever version of scrapy and python3
+
+scrapyd
+
+    pipenv install scrapyd
+
+    to set up client you need to install scrapyd-client
+
+    pipenv install git+https://github.com/scrapy/scrapyd-client.git#egg=scrapyd-client
+
+    the egg is the name arg found inside of the setup.py
