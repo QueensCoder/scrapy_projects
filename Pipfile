@@ -13,6 +13,7 @@ selenium = "*"
 scrapy-splash = "*"
 scrapy-selenium = "*"
 dnspython = "*"
+scrapyd = "*"
 
 [requires]
 python_version = "3.7"

@@ -1,0 +1,13 @@
+setup.py
+glass_shop/__init__.py
+glass_shop/items.py
+glass_shop/middlewares.py
+glass_shop/pipelines.py
+glass_shop/settings.py
+glass_shop/spiders/__init__.py
+glass_shop/spiders/best_seller.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

@@ -157,3 +157,14 @@ Best Practices
         - proxy service
         - crawlera (paid)
         - recaptach (can't get around)
+
+Deploy spiders
+
+    https://scrapinghub.com/
+
+    pipenv or pip install shub
+    shub login
+    <then enter api key>
+    then shub deploy <deploy key>
+
+    need to configure scraping hub to use python3

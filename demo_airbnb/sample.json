@@ -1,0 +1,430 @@
+{
+  "place_activity": {
+    "id": 4430,
+    "title": "Red Rooster",
+    "action_kicker": "Southern / Soul Food Restaurant",
+    "action_kicker_color": "#916E0D",
+    "action_row_subtitle": "Southern / soul food restaurant",
+    "action_row_title": "Red Rooster",
+    "activity_attributes": [
+      {
+        "airmoji": "description_heart",
+        "text": "738 hosts",
+        "title": "Recommended by",
+        "type": "recommended"
+      },
+      {
+        "airmoji": "description_value",
+        "text": "Around $20 per person",
+        "title": "Price range",
+        "type": "price"
+      },
+      {
+        "airmoji": "description_map_pin",
+        "text": "Manhattan",
+        "title": "Neighborhood",
+        "type": "location"
+      }
+    ],
+    "add_to_plans_attributes": {
+      "section_title": "When do you want to go?",
+      "button_text": "Add to plans",
+      "add_to_plans_actions": [
+        {
+          "type": "get_directions",
+          "display_title": "Go now",
+          "display_subtitle": "Get directions",
+          "default_time": null,
+          "times": null
+        },
+        {
+          "type": "date",
+          "display_title": "Today",
+          "display_subtitle": "Feb 26",
+          "default_time": "2020-02-26T09:00:00-05:00",
+          "times": [
+            {
+              "display_name": "Morning",
+              "time": "2020-02-26T09:00:00-05:00",
+              "is_available": true,
+              "is_default": false
+            },
+            {
+              "display_name": "Afternoon",
+              "time": "2020-02-26T13:00:00-05:00",
+              "is_available": true,
+              "is_default": false
+            },
+            {
+              "display_name": "Evening",
+              "time": "2020-02-26T19:00:00-05:00",
+              "is_available": true,
+              "is_default": false
+            }
+          ]
+        },
+        {
+          "type": "date",
+          "display_title": "Tomorrow",
+          "display_subtitle": "Feb 27",
+          "default_time": "2020-02-27T09:00:00-05:00",
+          "times": [
+            {
+              "display_name": "Morning",
+              "time": "2020-02-27T09:00:00-05:00",
+              "is_available": true,
+              "is_default": false
+            },
+            {
+              "display_name": "Afternoon",
+              "time": "2020-02-27T13:00:00-05:00",
+              "is_available": true,
+              "is_default": false
+            },
+            {
+              "display_name": "Evening",
+              "time": "2020-02-27T19:00:00-05:00",
+              "is_available": true,
+              "is_default": false
+            }
+          ]
+        },
+        {
+          "type": "date",
+          "display_title": "Friday",
+          "display_subtitle": "Feb 28",
+          "default_time": "2020-02-28T09:00:00-05:00",
+          "times": [
+            {
+              "display_name": "Morning",
+              "time": "2020-02-28T09:00:00-05:00",
+              "is_available": true,
+              "is_default": false
+            },
+            {
+              "display_name": "Afternoon",
+              "time": "2020-02-28T13:00:00-05:00",
+              "is_available": true,
+              "is_default": false
+            },
+            {
+              "display_name": "Evening",
+              "time": "2020-02-28T19:00:00-05:00",
+              "is_available": true,
+              "is_default": false
+            }
+          ]
+        },
+        {
+          "type": "custom_date",
+          "display_title": "Other",
+          "display_subtitle": "Pick date",
+          "default_time": null,
+          "times": null
+        }
+      ]
+    },
+    "bold_subtitle": "Southern / Soul Food Restaurant",
+    "cover_photos": [
+      {
+        "dominant_saturated_color": "#EDBB33",
+        "original_picture": "https://a0.muscache.com/pictures/269b75cc-82a1-477c-81f4-db5d059b0242.jpg",
+        "picture": "https://a0.muscache.com/im/pictures/269b75cc-82a1-477c-81f4-db5d059b0242.jpg?aki_policy=large",
+        "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//AcFwO+T2BgIGBQQF/xUFBQG2b04CISMYE8/e6C4I5t8BsWZBAiQ15OG+IDx187yVAallPerv+Q0KCvTw6hseHuv6GadikMBSAAAAAElFTkSuQmCC",
+        "xl_picture": "https://a0.muscache.com/im/pictures/269b75cc-82a1-477c-81f4-db5d059b0242.jpg?aki_policy=x_large",
+        "xl_poster": "https://a0.muscache.com/im/pictures/269b75cc-82a1-477c-81f4-db5d059b0242.jpg?aki_policy=xl_poster",
+        "xx_large": "https://a0.muscache.com/im/pictures/269b75cc-82a1-477c-81f4-db5d059b0242.jpg?aki_policy=xx_large"
+      },
+      {
+        "dominant_saturated_color": "#D07E80",
+        "original_picture": "https://a0.muscache.com/pictures/91c83545-b398-4115-b2d4-69ea932cb915.jpg",
+        "picture": "https://a0.muscache.com/im/pictures/91c83545-b398-4115-b2d4-69ea932cb915.jpg?aki_policy=large",
+        "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//AbvDx/vz697g4/bx6j4/QgF4cmcUDxTx5/AIB/wSKA0BgHxi9/nu4ecMIyAJBgfqAVBNSigqKy8yMuDWtP4IDEfhHbxLovwzAAAAAElFTkSuQmCC",
+        "xl_picture": "https://a0.muscache.com/im/pictures/91c83545-b398-4115-b2d4-69ea932cb915.jpg?aki_policy=x_large",
+        "xl_poster": "https://a0.muscache.com/im/pictures/91c83545-b398-4115-b2d4-69ea932cb915.jpg?aki_policy=xl_poster",
+        "xx_large": "https://a0.muscache.com/im/pictures/91c83545-b398-4115-b2d4-69ea932cb915.jpg?aki_policy=xx_large"
+      },
+      {
+        "dominant_saturated_color": "#D18463",
+        "original_picture": "https://a0.muscache.com/pictures/80a5edf3-91b0-4efe-b668-f66b44b34489.jpg",
+        "picture": "https://a0.muscache.com/im/pictures/80a5edf3-91b0-4efe-b668-f66b44b34489.jpg?aki_policy=large",
+        "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//AWxUT0AqKBP85fQNJLPHygG1dWEB8uUMDAj2/QX9DBkBj1xMBTRI69a1IDFPDt3JAaxWMssWNvIIEQcHD0H11E8BGZ8XGBbrAAAAAElFTkSuQmCC",
+        "xl_picture": "https://a0.muscache.com/im/pictures/80a5edf3-91b0-4efe-b668-f66b44b34489.jpg?aki_policy=x_large",
+        "xl_poster": "https://a0.muscache.com/im/pictures/80a5edf3-91b0-4efe-b668-f66b44b34489.jpg?aki_policy=xl_poster",
+        "xx_large": "https://a0.muscache.com/im/pictures/80a5edf3-91b0-4efe-b668-f66b44b34489.jpg?aki_policy=xx_large"
+      },
+      {
+        "dominant_saturated_color": "#BC9680",
+        "original_picture": "https://a0.muscache.com/pictures/89d7b909-688e-4b31-ae0b-3b47b1cebf34.jpg",
+        "picture": "https://a0.muscache.com/im/pictures/89d7b909-688e-4b31-ae0b-3b47b1cebf34.jpg?aki_policy=large",
+        "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//AYiEhezt7e/v8QYGBw0H/QFucnv99er7/f0GDhb/9vUBVFhfEw8NCwoK8u/tFBwiAX9nW+rq6dLi5vz3+vwTKjJnIcZNE+QkAAAAAElFTkSuQmCC",
+        "xl_picture": "https://a0.muscache.com/im/pictures/89d7b909-688e-4b31-ae0b-3b47b1cebf34.jpg?aki_policy=x_large",
+        "xl_poster": "https://a0.muscache.com/im/pictures/89d7b909-688e-4b31-ae0b-3b47b1cebf34.jpg?aki_policy=xl_poster",
+        "xx_large": "https://a0.muscache.com/im/pictures/89d7b909-688e-4b31-ae0b-3b47b1cebf34.jpg?aki_policy=xx_large"
+      },
+      {
+        "dominant_saturated_color": "#E4857A",
+        "original_picture": "https://a0.muscache.com/pictures/680745cb-f02f-4df0-bccc-5673437d1ecd.jpg",
+        "picture": "https://a0.muscache.com/im/pictures/680745cb-f02f-4df0-bccc-5673437d1ecd.jpg?aki_policy=large",
+        "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//AcpyWfwGDs7x7CUEBwr+AAHGcWDU+vvl+AcY/OApChoBvG5g/QAP0wb1Hvj49+vzAatjVvLy9QwFA+Hs7AcGBus8H3ZTBLXkAAAAAElFTkSuQmCC",
+        "xl_picture": "https://a0.muscache.com/im/pictures/680745cb-f02f-4df0-bccc-5673437d1ecd.jpg?aki_policy=x_large",
+        "xl_poster": "https://a0.muscache.com/im/pictures/680745cb-f02f-4df0-bccc-5673437d1ecd.jpg?aki_policy=xl_poster",
+        "xx_large": "https://a0.muscache.com/im/pictures/680745cb-f02f-4df0-bccc-5673437d1ecd.jpg?aki_policy=xx_large"
+      },
+      {
+        "dominant_saturated_color": "#C8A878",
+        "original_picture": "https://a0.muscache.com/pictures/461f0519-a1bc-45f1-a7df-7ea96ee83ca5.jpg",
+        "picture": "https://a0.muscache.com/im/pictures/461f0519-a1bc-45f1-a7df-7ea96ee83ca5.jpg?aki_policy=large",
+        "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//Ada5lOzr5/f+Bv7/A+7q4wG2opXFwrsUGB3z9PPl6OcBaFQ8Gw4A2+H0KzA5ub7A56ocPcRjiEgAAAAASUVORK5CYII=",
+        "xl_picture": "https://a0.muscache.com/im/pictures/461f0519-a1bc-45f1-a7df-7ea96ee83ca5.jpg?aki_policy=x_large",
+        "xl_poster": "https://a0.muscache.com/im/pictures/461f0519-a1bc-45f1-a7df-7ea96ee83ca5.jpg?aki_policy=xl_poster",
+        "xx_large": "https://a0.muscache.com/im/pictures/461f0519-a1bc-45f1-a7df-7ea96ee83ca5.jpg?aki_policy=xx_large"
+      },
+      {
+        "dominant_saturated_color": "#832F11",
+        "original_picture": "https://a0.muscache.com/pictures/8e8762cb-7c96-4c5f-b544-facc3fddded0.jpg",
+        "picture": "https://a0.muscache.com/im/pictures/8e8762cb-7c96-4c5f-b544-facc3fddded0.jpg?aki_policy=large",
+        "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AaNxXfEC69wAFODy5fPfAgHEnIbGx7ny2NtYPjXi8+ABlHRsAOHJAeb5MikK7P33kPobYkc/OTAAAAAASUVORK5CYII=",
+        "xl_picture": "https://a0.muscache.com/im/pictures/8e8762cb-7c96-4c5f-b544-facc3fddded0.jpg?aki_policy=x_large",
+        "xl_poster": "https://a0.muscache.com/im/pictures/8e8762cb-7c96-4c5f-b544-facc3fddded0.jpg?aki_policy=xl_poster",
+        "xx_large": "https://a0.muscache.com/im/pictures/8e8762cb-7c96-4c5f-b544-facc3fddded0.jpg?aki_policy=xx_large"
+      },
+      {
+        "dominant_saturated_color": "#F5DD43",
+        "original_picture": "https://a0.muscache.com/pictures/637727dc-d946-4c7c-8fb5-374e11cfcacb.jpg",
+        "picture": "https://a0.muscache.com/im/pictures/637727dc-d946-4c7c-8fb5-374e11cfcacb.jpg?aki_policy=large",
+        "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//AYJqVf4AAAUICPz4+AQDAwFYPy4GDRId/fvsCQju7OwBak46XUdT4saqJ1dQo63LAXVQOPsJFBcqMPz19tHDuQKEGu8pzkh7AAAAAElFTkSuQmCC",
+        "xl_picture": "https://a0.muscache.com/im/pictures/637727dc-d946-4c7c-8fb5-374e11cfcacb.jpg?aki_policy=x_large",
+        "xl_poster": "https://a0.muscache.com/im/pictures/637727dc-d946-4c7c-8fb5-374e11cfcacb.jpg?aki_policy=xl_poster",
+        "xx_large": "https://a0.muscache.com/im/pictures/637727dc-d946-4c7c-8fb5-374e11cfcacb.jpg?aki_policy=xx_large"
+      },
+      {
+        "dominant_saturated_color": "#F8C35A",
+        "original_picture": "https://a0.muscache.com/pictures/d88665c3-3618-443c-a707-a216d7626be0.jpg",
+        "picture": "https://a0.muscache.com/im/pictures/d88665c3-3618-443c-a707-a216d7626be0.jpg?aki_policy=large",
+        "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AY2KkgwJBgL57TEd4u0OQwGzsLcb9PYKFPIE8MTI5B0Bsqy2Dd7izLay2BQOCB8nDHIWK2B1yboAAAAASUVORK5CYII=",
+        "xl_picture": "https://a0.muscache.com/im/pictures/d88665c3-3618-443c-a707-a216d7626be0.jpg?aki_policy=x_large",
+        "xl_poster": "https://a0.muscache.com/im/pictures/d88665c3-3618-443c-a707-a216d7626be0.jpg?aki_policy=xl_poster",
+        "xx_large": "https://a0.muscache.com/im/pictures/d88665c3-3618-443c-a707-a216d7626be0.jpg?aki_policy=xx_large"
+      },
+      {
+        "dominant_saturated_color": "#96561E",
+        "original_picture": "https://a0.muscache.com/pictures/6c76d057-83d9-4ed5-9bd4-d2f978d27b31.jpg",
+        "picture": "https://a0.muscache.com/im/pictures/6c76d057-83d9-4ed5-9bd4-d2f978d27b31.jpg?aki_policy=large",
+        "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//AfLx8HB3YwoO8AD3EMjA1gFob3QyKvWtwscL//ISBjUBoq2528iQ4u7m//gBLyQ4AXx5di82LsCto+j0AEMuICQCH5kzOmmSAAAAAElFTkSuQmCC",
+        "xl_picture": "https://a0.muscache.com/im/pictures/6c76d057-83d9-4ed5-9bd4-d2f978d27b31.jpg?aki_policy=x_large",
+        "xl_poster": "https://a0.muscache.com/im/pictures/6c76d057-83d9-4ed5-9bd4-d2f978d27b31.jpg?aki_policy=xl_poster",
+        "xx_large": "https://a0.muscache.com/im/pictures/6c76d057-83d9-4ed5-9bd4-d2f978d27b31.jpg?aki_policy=xx_large"
+      }
+    ],
+    "description": "",
+    "guidebook": null,
+    "insider_tagline": "Another top notch Soul Food spot",
+    "localized_city": "Manhattan",
+    "market": {
+      "id": 13,
+      "name": "New York",
+      "time_zone": "America/New_York",
+      "lat": 40.7127837,
+      "lng": -74.0059413,
+      "status": 3,
+      "country_code": "US",
+      "region": "North America",
+      "time_zone_offset": -300,
+      "localized_name": "New York",
+      "timezone_abbr": "EST",
+      "country_name": "United States",
+      "phone": "+1-415-800-5959",
+      "experience_explore_url": "/s/New-York--US/experiences",
+      "card_photo_url": "https://a0.muscache.com/im/pictures/ec4fad06-2024-469d-a7af-1ec9be4f0b34.jpg?aki_policy=large",
+      "launched": true
+    },
+    "place": {
+      "airmoji": "food_restaurant",
+      "api_id": "ChIJFcYLJw32wokRnP5A9xO9JqM",
+      "id": 23133,
+      "address": "310 Malcolm X Blvd",
+      "category_for_display": "Restaurant",
+      "city": "Manhattan",
+      "country": "US",
+      "lat": 40.8080989,
+      "lng": -73.9447535,
+      "name": "Red Rooster",
+      "neighborhood": null,
+      "num_hosts_recommend": 519,
+      "open_hours": {
+        "open_status": "Closed \u00b7 Opens in 15 minutes",
+        "hours_for_display": [
+          {
+            "days": "Monday\u00a0\u2011\u00a0Thursday",
+            "times": "11:30\u00a0AM\u00a0\u2011\u00a010:30\u00a0PM"
+          },
+          {
+            "days": "Friday",
+            "times": "11:30\u00a0AM\u00a0\u2011\u00a011:30\u00a0PM"
+          },
+          {
+            "days": "Saturday",
+            "times": "10:00\u00a0AM\u00a0\u2011\u00a011:30\u00a0PM"
+          },
+          {
+            "days": "Sunday",
+            "times": "10:00\u00a0AM\u00a0\u2011\u00a010:00\u00a0PM"
+          }
+        ]
+      },
+      "phone": "+1 212-792-9001",
+      "state": "NY",
+      "website": "http://redroosterharlem.com/",
+      "zipcode": "10027",
+      "timezone": "America/New_York",
+      "third_party_content": {
+        "attributes": [
+          {
+            "items": [{ "name": "Price", "value": "$$$" }],
+            "name": "Price",
+            "summary": "$$$",
+            "type": "price"
+          },
+          {
+            "items": [
+              {
+                "name": "Credit Cards",
+                "value": "Yes (incl. American Express & MasterCard)"
+              }
+            ],
+            "name": "Credit Cards",
+            "summary": "Credit Cards",
+            "type": "payments"
+          },
+          {
+            "items": [{ "name": "Outdoor Seating", "value": "Yes" }],
+            "name": "Outdoor Seating",
+            "summary": "Outdoor Seating",
+            "type": "outdoorSeating"
+          },
+          {
+            "items": [{ "name": "Live Music", "value": "Live Music" }],
+            "name": "Music",
+            "summary": "Live Music",
+            "type": "music"
+          },
+          {
+            "items": [
+              { "name": "Brunch", "value": "Brunch" },
+              { "name": "Lunch", "value": "Lunch" },
+              { "name": "Dinner", "value": "Dinner" },
+              { "name": "Happy Hour", "value": "Happy Hour" }
+            ],
+            "name": "Meal Service",
+            "summary": "Happy Hour, Brunch & more",
+            "type": "serves"
+          },
+          {
+            "items": [
+              { "name": "Beer", "value": "Beer" },
+              { "name": "Wine", "value": "Wine" },
+              { "name": "Full Bar", "value": "Full Bar" },
+              { "name": "Cocktails", "value": "Cocktails" }
+            ],
+            "name": "Drinks",
+            "summary": "Beer, Wine, Full Bar & Cocktails",
+            "type": "drinks"
+          },
+          {
+            "items": [{ "name": "Delivery", "value": "No Delivery" }],
+            "name": "Dining Options",
+            "summary": null,
+            "type": "diningOptions"
+          }
+        ],
+        "attributions": [
+          {
+            "description": null,
+            "image_url": null,
+            "text": "Powered by Foursquare",
+            "type": "foursquare",
+            "url": "https://foursquare.com/v/4c90005f3790199c16d8926b"
+          }
+        ],
+        "categories": ["Southern / Soul Food Restaurant"],
+        "description": null,
+        "links": [
+          {
+            "name": "RedRoosterHarlem",
+            "provider": null,
+            "type": "facebook",
+            "url": "https://facebook.com/RedRoosterHarlem"
+          },
+          {
+            "name": "@roosterharlem",
+            "provider": null,
+            "type": "twitter",
+            "url": "https://twitter.com/roosterharlem"
+          }
+        ],
+        "menu": null
+      },
+      "google_page_url": "https://maps.google.com/?cid=11756291770747518620"
+    },
+    "restaurant": {
+      "about": "",
+      "book_url": null,
+      "calendar_day_availability": {
+        "begin_date": "2020-02-26",
+        "end_date": "2020-03-27",
+        "unavailable_dates": []
+      },
+      "calendar": [],
+      "currency": "USD",
+      "name": "Red Rooster",
+      "num_ratings": 0,
+      "rating": 4.3,
+      "resy_type": "Southern"
+    },
+    "share_url": "https://www.airbnb.com/activities/4430",
+    "subtitle": "Another top notch Soul Food spot",
+    "user": null,
+    "is_bookable": false,
+    "is_permanently_closed": false,
+    "recommendation_items": null,
+    "share_links": [
+      {
+        "channel_name": "facebook",
+        "url": "http://www.facebook.com/sharer.php?u=https%3A%2F%2Fabnb.me%2FwFkbl1Nxm4%3Fs%3D4",
+        "raw_url": "https://abnb.me/wFkbl1Nxm4?s=4",
+        "title": "Facebook",
+        "s": "4"
+      },
+      {
+        "channel_name": "twitter",
+        "url": "https://twitter.com/intent/tweet?source=tweetbutton&text=I+just+booked+a+table+at+Red+Rooster+on+Airbnb%21+Check+it+out%3A&url=https%3A%2F%2Fabnb.me%2FwFkbl1Nxm4%3Fs%3D5&related=airbnb",
+        "raw_url": null,
+        "title": "Twitter",
+        "s": "5"
+      },
+      {
+        "channel_name": "email",
+        "url": "mailto:?to=&body=I%20booked%20a%20table%20at%20Red%20Rooster.%20Check%20it%20out%20next%20time%20you%27re%20craving%20a%20great%20meal%21 https%3A%2F%2Fabnb.me%2FwFkbl1Nxm4%3Fs%3D2&subject=%20%E2%80%94%20Airbnb%20Experience",
+        "raw_url": null,
+        "title": "Email",
+        "s": "23"
+      },
+      {
+        "channel_name": "messenger",
+        "url": "http://www.facebook.com/dialog/send?app_id=138566025676&link=https%3A%2F%2Fabnb.me%2FwFkbl1Nxm4%3Fs%3D25&redirect_uri=https%3A%2F%2Fabnb.me%2FwFkbl1Nxm4%3Fs%3D25",
+        "raw_url": "https://abnb.me/wFkbl1Nxm4?s=25",
+        "title": "Messenger",
+        "s": "25"
+      },
+      {
+        "channel_name": "copy",
+        "url": "https://abnb.me/wFkbl1Nxm4?s=51",
+        "raw_url": null,
+        "title": "",
+        "s": "51"
+      }
+    ]
+  },
+  "metadata": {}
+}
