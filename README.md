@@ -179,4 +179,26 @@ scrapyd
 
     pipenv install git+https://github.com/scrapy/scrapyd-client.git#egg=scrapyd-client
 
+    pipenv requires that there be an arg for this type of install
+
     the egg is the name arg found inside of the setup.py
+
+    see the repo: https://github.com/scrapy/scrapyd-client
+
+    need two terminals, first terminal will run scrapyd
+
+    scrapyd
+
+    the second terminal will run
+
+    update the scrapy.cfg
+    uncomment the url and add correct url
+
+    scrapyd-deploy local
+
+    after this you need to check the response status, if the status is ok
+    you can now issue a request for the job
+
+    now you can perform a curl request in order to schedule the job to start
+
+    curl http://localhost:6800/schedule.json -d project=glass_shop -d spider=best_seller
