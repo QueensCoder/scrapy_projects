@@ -212,3 +212,21 @@ scrapyd
     -list of all endpoints
 
     https://scrapyd.readthedocs.io/en/stable/api.html
+
+Deploy to Heroku
+
+    create new heroku app
+
+    pipenv install herokuify-scrapyd
+
+    inside of scrapy.cfg change url to heroku app url
+
+    add a scrapyd section as seen below
+
+    [scrapyd]
+    application = herokuify-scrapyd.app.application
+
+    add procfile to root dir
+
+    add runtime.txt to determine which version of python you want to use
+    if omitted it will automatically run latest version
