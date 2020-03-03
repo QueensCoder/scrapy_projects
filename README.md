@@ -201,4 +201,14 @@ scrapyd
 
     now you can perform a curl request in order to schedule the job to start
 
+    -start job
+
     curl http://localhost:6800/schedule.json -d project=glass_shop -d spider=best_seller
+
+    -cancel job
+
+    curl http://localhost:6800/cancel.json -d project=glass_shop -d job=some_job_id
+
+    -list of all endpoints
+
+    https://scrapyd.readthedocs.io/en/stable/api.html

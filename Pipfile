@@ -15,6 +15,7 @@ scrapy-selenium = "*"
 dnspython = "*"
 scrapyd = "*"
 scrapyd-client = {git = "https://github.com/scrapy/scrapyd-client.git"}
+herokuify-scrapyd = "*"
 
 [requires]
 python_version = "3.7"
